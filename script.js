@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const page4 = document.getElementById("page4");
     const page5 = document.getElementById("page5");
     const page6 = document.getElementById("page6");
+    const page7 = document.getElementById("page7");
 
 
     // PAGE 1 → PAGE 2
@@ -54,6 +55,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
         page5.style.transform = "translateX(-100%)";
         page6.style.transform = "translateX(0)";
+
+    });
+
+
+    // PAGE 6 → PAGE 7
+
+    page6.addEventListener("click", function () {
+
+        page6.style.transform = "translateX(-100%)";
+        page7.style.transform = "translateX(0)");
 
     });
 
