@@ -908,3 +908,583 @@ body {
         height: 195px;
     }
 }
+/* =========================
+   PAGE 7 - FINAL
+========================= */
+
+.final-page {
+    z-index: 4;
+    transform: translateX(100%);
+
+    background: #f8dfe5;
+
+    overflow: hidden;
+
+    cursor: default;
+}
+
+.final-content {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+    padding: 30px 20px;
+}
+
+
+/* FINAL MESSAGE */
+
+.final-text {
+    position: relative;
+    z-index: 5;
+
+    color: #202020;
+
+    font-family: "Caveat", cursive;
+
+    font-size: clamp(38px, 5vw, 65px);
+
+    font-weight: 600;
+
+    line-height: 1.05;
+
+    text-align: center;
+
+    transform: rotate(-2deg);
+
+    margin-bottom: 35px;
+}
+
+
+/* HEARTS */
+
+.final-hearts span {
+    position: absolute;
+
+    color: #ef9cac;
+
+    font-size: 30px;
+
+    animation: finalHeartFloat 3s ease-in-out infinite;
+}
+
+.final-hearts span:nth-child(1) {
+    top: 15%;
+    left: 31%;
+    font-size: 45px;
+}
+
+.final-hearts span:nth-child(2) {
+    top: 17%;
+    right: 27%;
+    font-size: 35px;
+}
+
+.final-hearts span:nth-child(3) {
+    top: 30%;
+    left: 38%;
+    font-size: 28px;
+}
+
+.final-hearts span:nth-child(4) {
+    top: 42%;
+    left: 27%;
+    font-size: 32px;
+}
+
+.final-hearts span:nth-child(5) {
+    top: 39%;
+    right: 29%;
+    font-size: 35px;
+}
+
+.final-hearts span:nth-child(6) {
+    bottom: 25%;
+    left: 25%;
+    font-size: 28px;
+}
+
+.final-hearts span:nth-child(7) {
+    bottom: 20%;
+    right: 27%;
+    font-size: 32px;
+}
+
+.final-hearts span:nth-child(8) {
+    bottom: 30%;
+    left: 45%;
+    font-size: 25px;
+}
+
+
+/* CUTE COUPLE */
+
+.cute-couple {
+    display: flex;
+
+    align-items: flex-end;
+    justify-content: center;
+
+    gap: 5px;
+
+    position: relative;
+
+    transform: scale(1.05);
+}
+
+
+/* =========================
+   CAT
+========================= */
+
+.cute-cat {
+    width: 145px;
+    height: 220px;
+
+    position: relative;
+
+    animation: characterFloat 3s ease-in-out infinite;
+}
+
+.cat-head {
+    position: absolute;
+
+    width: 105px;
+    height: 92px;
+
+    background: #dff3f1;
+
+    border: 4px solid #171717;
+
+    border-radius: 45% 45% 40% 40%;
+
+    left: 20px;
+    top: 30px;
+
+    z-index: 3;
+}
+
+
+/* CAT EARS */
+
+.cat-ear {
+    position: absolute;
+
+    width: 45px;
+    height: 55px;
+
+    background: #dff3f1;
+
+    border: 4px solid #171717;
+
+    top: 10px;
+
+    z-index: 2;
+}
+
+.cat-ear.left {
+    left: 18px;
+
+    transform: rotate(-35deg);
+
+    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+}
+
+.cat-ear.right {
+    right: 18px;
+
+    transform: rotate(35deg);
+
+    clip-path: polygon(0% 100%, 100% 0%, 100% 100%);
+}
+
+
+/* CAT EYES */
+
+.cat-eye {
+    position: absolute;
+
+    width: 10px;
+    height: 10px;
+
+    background: #111;
+
+    border-radius: 50%;
+
+    top: 45px;
+}
+
+.cat-eye.eye-left {
+    left: 25px;
+}
+
+.cat-eye.eye-right {
+    right: 25px;
+}
+
+
+/* CAT NOSE */
+
+.cat-nose {
+    position: absolute;
+
+    width: 7px;
+    height: 6px;
+
+    background: #df7d91;
+
+    border-radius: 50%;
+
+    left: 49px;
+    top: 59px;
+}
+
+
+/* CAT MOUTH */
+
+.cat-mouth {
+    position: absolute;
+
+    left: 44px;
+    top: 60px;
+
+    font-size: 17px;
+
+    color: #111;
+}
+
+
+/* CAT BODY */
+
+.cat-body {
+    position: absolute;
+
+    width: 105px;
+    height: 120px;
+
+    background: #dff3f1;
+
+    border: 4px solid #171717;
+
+    border-radius: 48% 48% 30% 30%;
+
+    left: 20px;
+    top: 105px;
+
+    z-index: 1;
+}
+
+
+/* CAT ARM */
+
+.cat-arm {
+    position: absolute;
+
+    width: 75px;
+    height: 22px;
+
+    background: #dff3f1;
+
+    border: 4px solid #171717;
+
+    border-radius: 30px;
+
+    left: 80px;
+    top: 125px;
+
+    transform: rotate(5deg);
+
+    z-index: 4;
+}
+
+
+/* CAT FLOWER */
+
+.cat-flower {
+    position: absolute;
+
+    left: 57px;
+    top: -5px;
+
+    font-size: 32px;
+
+    z-index: 6;
+}
+
+
+/* =========================
+   BUNNY
+========================= */
+
+.cute-bunny {
+    width: 145px;
+    height: 240px;
+
+    position: relative;
+
+    animation: characterFloat 3s ease-in-out infinite;
+
+    animation-delay: 0.4s;
+}
+
+
+/* BUNNY EARS */
+
+.bunny-ear {
+    position: absolute;
+
+    width: 40px;
+    height: 90px;
+
+    background: #dff3f1;
+
+    border: 4px solid #171717;
+
+    border-radius: 50px;
+
+    top: 0;
+
+    z-index: 1;
+}
+
+.bunny-ear.left {
+    left: 32px;
+    transform: rotate(-4deg);
+}
+
+.bunny-ear.right {
+    right: 32px;
+    transform: rotate(4deg);
+}
+
+
+/* BUNNY HEAD */
+
+.bunny-head {
+    position: absolute;
+
+    width: 105px;
+    height: 92px;
+
+    background: #dff3f1;
+
+    border: 4px solid #171717;
+
+    border-radius: 48%;
+
+    left: 20px;
+    top: 50px;
+
+    z-index: 3;
+}
+
+
+/* BUNNY EYES */
+
+.bunny-eye {
+    position: absolute;
+
+    width: 10px;
+    height: 10px;
+
+    background: #111;
+
+    border-radius: 50%;
+
+    top: 45px;
+}
+
+.bunny-eye.eye-left {
+    left: 25px;
+}
+
+.bunny-eye.eye-right {
+    right: 25px;
+}
+
+
+/* BUNNY MOUTH */
+
+.bunny-mouth {
+    position: absolute;
+
+    left: 43px;
+    top: 55px;
+
+    font-size: 18px;
+
+    color: #111;
+}
+
+
+/* BUNNY BODY */
+
+.bunny-body {
+    position: absolute;
+
+    width: 105px;
+    height: 125px;
+
+    background: #dff3f1;
+
+    border: 4px solid #171717;
+
+    border-radius: 48% 48% 30% 30%;
+
+    left: 20px;
+    top: 125px;
+
+    z-index: 1;
+}
+
+
+/* BUNNY ARM */
+
+.bunny-arm {
+    position: absolute;
+
+    width: 75px;
+    height: 22px;
+
+    background: #dff3f1;
+
+    border: 4px solid #171717;
+
+    border-radius: 30px;
+
+    right: 80px;
+    top: 145px;
+
+    transform: rotate(-5deg);
+
+    z-index: 4;
+}
+
+
+/* BUNNY FLOWER */
+
+.bunny-flower {
+    position: absolute;
+
+    right: 5px;
+    top: 110px;
+
+    font-size: 28px;
+
+    z-index: 5;
+}
+
+
+/* ANIMATIONS */
+
+@keyframes characterFloat {
+
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes finalHeartFloat {
+
+    0% {
+        transform: translateY(0);
+        opacity: 0.7;
+    }
+
+    50% {
+        transform: translateY(-8px);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 0.7;
+    }
+}
+
+
+/* =========================
+   PAGE 7 MOBILE
+========================= */
+
+@media (max-width: 700px) {
+
+    .final-content {
+        padding: 20px 10px;
+    }
+
+    .final-text {
+        font-size: 35px;
+
+        line-height: 1.05;
+
+        margin-bottom: 25px;
+    }
+
+    .cute-couple {
+        transform: scale(0.75);
+
+        margin-top: -5px;
+    }
+
+    .final-hearts span:nth-child(1) {
+        left: 20%;
+        top: 16%;
+    }
+
+    .final-hearts span:nth-child(2) {
+        right: 15%;
+        top: 18%;
+    }
+
+    .final-hearts span:nth-child(3) {
+        left: 25%;
+        top: 35%;
+    }
+
+    .final-hearts span:nth-child(4) {
+        left: 10%;
+        top: 48%;
+    }
+
+    .final-hearts span:nth-child(5) {
+        right: 12%;
+        top: 45%;
+    }
+
+    .final-hearts span:nth-child(6) {
+        left: 12%;
+        bottom: 20%;
+    }
+
+    .final-hearts span:nth-child(7) {
+        right: 12%;
+        bottom: 18%;
+    }
+}
+
+
+@media (max-width: 400px) {
+
+    .final-text {
+        font-size: 30px;
+    }
+
+    .cute-couple {
+        transform: scale(0.65);
+    }
+}
