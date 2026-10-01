@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function () {
     page6.addEventListener("click", function () {
 
         page6.style.transform = "translateX(-100%)";
-        page7.style.transform = "translateX(0)");
+        page7.style.transform = "translateX(0)";
 
     });
 
